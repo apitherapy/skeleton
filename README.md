@@ -30,6 +30,12 @@ composer install
 
 # run the test (from project root)
 phpunit
+
+# run PHPMD
+phpmd src text ./phpmd.xml
+
+# PHPCS
+phpcs --standard=./phpcs.xml src
 ```
 
 ## Credits
